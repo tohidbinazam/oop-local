@@ -37,7 +37,7 @@ function get_student() {
                     <td>${name}</td>
                     <td>${email}</td>
                     <td>${number}</td>
-                    <td><img style="width: 40px; height: 40px; object-fit: cover" src="${photo ? photo : '../assets/img/avatar.png'}" alt="" /></td>
+                    <td><img style="width: 40px; height: 40px; object-fit: cover" src="${photo ? photo : './assets/img/avatar.png'}" alt="" /></td>
                     <td>
                       <button class="btn btn-info btn-sm"><i class="fa-solid fa-eye"></i> View</button>
                       <button class="btn btn-warning btn-sm"><i class="fa-solid fa-pen-to-square"></i> Edit</button>
